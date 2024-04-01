@@ -6,7 +6,7 @@
 //a função criada ela é um/a forma mais simplificada de apresentar texto para variaveis iguais (uma boa pratica da programação)
 
 let listaDeNumeroSorteados = []; //toda lista(arrays) será c/ colchetes /  permite armazenar e organizar vários valores em uma única variável / cada array tem um indice(inciado por 0)
-let numeroLimite = 10; // essa variavel se trata da quantidade que um número será gerado na função Math.random da função function gerarNumeroAleatorio , do let numeroEscolhido
+let numeroLimite = 20; // essa variavel se trata da quantidade que um número será gerado na função Math.random da função function gerarNumeroAleatorio , do let numeroEscolhido
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -18,7 +18,7 @@ function exibirTextoNaTela(tag, texto) {
  //document.querySelector  buscar um elemento do mundo HTML e trazê-lo para o mundo JavaScript 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');   
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 20');   
 }
 
 exibirMensagemInicial();
